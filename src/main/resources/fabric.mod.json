@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dropall",
+  "version": "1.0.0",
+  "name": "Drop All Chest Items",
+  "description": "Adds a button to drop all items from any container instantly",
+  "authors": ["Quack"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.quack.dropall.DropAllClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "fabric": "*"
+  }
+}
